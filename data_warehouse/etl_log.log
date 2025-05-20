@@ -1,0 +1,322 @@
+2025-05-18 22:46:07,151 - INFO - Iniciando processo ETL completo
+2025-05-18 22:46:07,258 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 22:46:07,268 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 22:46:07,271 - INFO - Extraídos 162 registros da tabela aluno
+2025-05-18 22:46:07,276 - ERROR - Erro ao limpar tabela DimAluno: 1701 (42000): Cannot truncate a table referenced in a foreign key constraint (`dw_pi`.`fatopresenca`, CONSTRAINT `fatopresenca_ibfk_1`)
+2025-05-18 22:46:07,276 - ERROR - Erro no processo ETL: 1701 (42000): Cannot truncate a table referenced in a foreign key constraint (`dw_pi`.`fatopresenca`, CONSTRAINT `fatopresenca_ibfk_1`)
+2025-05-18 22:49:05,404 - INFO - Iniciando processo ETL completo
+2025-05-18 22:49:05,513 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 22:49:05,518 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 22:49:05,569 - INFO - Tabela FatoPresenca limpa com sucesso
+2025-05-18 22:49:05,575 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 22:49:05,580 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 22:49:05,582 - INFO - Extraídos 162 registros da tabela aluno
+2025-05-18 22:49:05,606 - INFO - Tabela DimAluno limpa com sucesso
+2025-05-18 22:49:05,641 - INFO - Inseridos 162 registros em DimAluno (lote 1)
+2025-05-18 22:49:05,641 - INFO - Total de 162 registros inseridos em DimAluno
+2025-05-18 22:49:05,647 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 22:49:05,652 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 22:49:05,653 - INFO - Extraídos 35 registros da tabela professor
+2025-05-18 22:49:05,675 - INFO - Tabela DimProfessor limpa com sucesso
+2025-05-18 22:49:05,679 - INFO - Inseridos 35 registros em DimProfessor (lote 1)
+2025-05-18 22:49:05,680 - INFO - Total de 35 registros inseridos em DimProfessor
+2025-05-18 22:49:05,685 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 22:49:05,691 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 22:49:05,692 - INFO - Extraídos 130 registros da tabela disciplina
+2025-05-18 22:49:05,715 - INFO - Tabela DimDisciplina limpa com sucesso
+2025-05-18 22:49:05,719 - INFO - Inseridos 130 registros em DimDisciplina (lote 1)
+2025-05-18 22:49:05,720 - INFO - Total de 130 registros inseridos em DimDisciplina
+2025-05-18 22:49:05,726 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 22:49:05,731 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 22:49:05,732 - INFO - Extraídos 56 registros da tabela turma
+2025-05-18 22:49:05,755 - INFO - Tabela DimTurma limpa com sucesso
+2025-05-18 22:49:05,759 - INFO - Inseridos 56 registros em DimTurma (lote 1)
+2025-05-18 22:49:05,760 - INFO - Total de 56 registros inseridos em DimTurma
+2025-05-18 22:49:05,765 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 22:49:05,770 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 22:49:05,772 - INFO - Extraídos 150 registros da tabela localizacao
+2025-05-18 22:49:05,797 - INFO - Tabela DimLocalizacao limpa com sucesso
+2025-05-18 22:49:05,802 - INFO - Inseridos 150 registros em DimLocalizacao (lote 1)
+2025-05-18 22:49:05,802 - INFO - Total de 150 registros inseridos em DimLocalizacao
+2025-05-18 22:49:05,808 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 22:49:05,813 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 22:49:05,814 - INFO - Extraídos 10 registros da tabela tempo
+2025-05-18 22:49:05,837 - INFO - Tabela DimTempo limpa com sucesso
+2025-05-18 22:49:05,842 - INFO - Inseridos 10 registros em DimTempo (lote 1)
+2025-05-18 22:49:05,842 - INFO - Total de 10 registros inseridos em DimTempo
+2025-05-18 22:49:05,848 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 22:49:05,853 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 22:49:05,855 - INFO - Extraídos 230 registros da tabela presenca
+2025-05-18 22:49:05,871 - INFO - Inseridos 230 registros em FatoPresenca (lote 1)
+2025-05-18 22:49:05,871 - INFO - Total de 230 registros inseridos em FatoPresenca
+2025-05-18 22:49:05,872 - INFO - Processo ETL concluído com sucesso em 0:00:00.468127
+2025-05-18 23:12:30,165 - INFO - Iniciando processo ETL completo
+2025-05-18 23:12:30,287 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 23:12:30,293 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 23:12:30,335 - INFO - Tabela FatoPresenca limpa com sucesso
+2025-05-18 23:12:30,341 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 23:12:30,346 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 23:12:30,347 - INFO - Extraídos 162 registros da tabela aluno
+2025-05-18 23:12:30,368 - INFO - Tabela DimAluno limpa com sucesso
+2025-05-18 23:12:30,374 - ERROR - Erro ao inserir dados em DimAluno: 1364 (HY000): Field 'senha' doesn't have a default value
+2025-05-18 23:12:30,375 - ERROR - Erro no processo ETL: 1364 (HY000): Field 'senha' doesn't have a default value
+2025-05-18 23:18:03,531 - INFO - ==================================================
+2025-05-18 23:18:03,532 - INFO - Iniciando processo ETL completo
+2025-05-18 23:18:03,532 - INFO - ==================================================
+2025-05-18 23:18:03,532 - INFO - Iniciando ETL para DimAluno
+2025-05-18 23:18:03,645 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 23:18:03,651 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 23:18:03,653 - INFO - Extraídos 162 registros da tabela aluno
+2025-05-18 23:18:03,674 - INFO - Tabela DimAluno limpa com sucesso
+2025-05-18 23:18:03,687 - INFO - Inseridos 162 registros em DimAluno (lote 1)
+2025-05-18 23:18:03,687 - INFO - Total de 162 registros inseridos em DimAluno
+2025-05-18 23:18:03,688 - INFO - Iniciando ETL para DimProfessor
+2025-05-18 23:18:03,693 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 23:18:03,699 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 23:18:03,700 - INFO - Extraídos 35 registros da tabela professor
+2025-05-18 23:18:03,719 - INFO - Tabela DimProfessor limpa com sucesso
+2025-05-18 23:18:03,724 - INFO - Inseridos 35 registros em DimProfessor (lote 1)
+2025-05-18 23:18:03,724 - INFO - Total de 35 registros inseridos em DimProfessor
+2025-05-18 23:18:03,725 - INFO - Iniciando ETL para DimDisciplina
+2025-05-18 23:18:03,730 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 23:18:03,735 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 23:18:03,737 - INFO - Extraídos 130 registros da tabela disciplina
+2025-05-18 23:18:03,756 - INFO - Tabela DimDisciplina limpa com sucesso
+2025-05-18 23:18:03,761 - INFO - Inseridos 130 registros em DimDisciplina (lote 1)
+2025-05-18 23:18:03,762 - INFO - Total de 130 registros inseridos em DimDisciplina
+2025-05-18 23:18:03,762 - INFO - Iniciando ETL para DimTurma
+2025-05-18 23:18:03,767 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 23:18:03,773 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 23:18:03,775 - INFO - Extraídos 56 registros da tabela turma
+2025-05-18 23:18:03,795 - INFO - Tabela DimTurma limpa com sucesso
+2025-05-18 23:18:03,799 - INFO - Inseridos 56 registros em DimTurma (lote 1)
+2025-05-18 23:18:03,799 - INFO - Total de 56 registros inseridos em DimTurma
+2025-05-18 23:18:03,800 - INFO - Iniciando ETL para DimLocalizacao
+2025-05-18 23:18:03,805 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 23:18:03,811 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 23:18:03,812 - INFO - Extraídos 150 registros da tabela localizacao
+2025-05-18 23:18:03,833 - INFO - Tabela DimLocalizacao limpa com sucesso
+2025-05-18 23:18:03,839 - INFO - Inseridos 150 registros em DimLocalizacao (lote 1)
+2025-05-18 23:18:03,839 - INFO - Total de 150 registros inseridos em DimLocalizacao
+2025-05-18 23:18:03,840 - INFO - Iniciando ETL para DimTempo
+2025-05-18 23:18:03,845 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 23:18:03,850 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 23:18:03,851 - INFO - Extraídos 10 registros da tabela tempo
+2025-05-18 23:18:03,873 - INFO - Tabela DimTempo limpa com sucesso
+2025-05-18 23:18:03,877 - INFO - Inseridos 10 registros em DimTempo (lote 1)
+2025-05-18 23:18:03,877 - INFO - Total de 10 registros inseridos em DimTempo
+2025-05-18 23:18:03,878 - INFO - Iniciando ETL para FatoPresenca
+2025-05-18 23:18:03,883 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 23:18:03,889 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 23:18:03,891 - INFO - Extraídos 230 registros da tabela presenca
+2025-05-18 23:18:03,959 - INFO - Tabela FatoPresenca limpa com sucesso
+2025-05-18 23:18:03,973 - INFO - Inseridos 230 registros em FatoPresenca (lote 1)
+2025-05-18 23:18:03,974 - INFO - Total de 230 registros inseridos em FatoPresenca
+2025-05-18 23:18:03,974 - INFO - Verificando integridade dos dados...
+2025-05-18 23:18:03,980 - INFO - Conexão estabelecida com Banco_pi
+2025-05-18 23:18:03,985 - INFO - Conexão estabelecida com DW_pi
+2025-05-18 23:18:03,992 - INFO - aluno -> DimAluno: 162 -> 162
+2025-05-18 23:18:03,994 - INFO - professor -> DimProfessor: 35 -> 35
+2025-05-18 23:18:03,996 - INFO - disciplina -> DimDisciplina: 130 -> 130
+2025-05-18 23:18:03,997 - INFO - turma -> DimTurma: 56 -> 56
+2025-05-18 23:18:03,999 - INFO - localizacao -> DimLocalizacao: 150 -> 150
+2025-05-18 23:18:04,001 - INFO - tempo -> DimTempo: 10 -> 10
+2025-05-18 23:18:04,004 - INFO - presenca -> FatoPresenca: 230 -> 230
+2025-05-18 23:18:04,004 - INFO - ==================================================
+2025-05-18 23:18:04,005 - INFO - Processo ETL concluído com sucesso em 0:00:00.473241
+2025-05-18 23:18:04,005 - INFO - ==================================================
+2025-05-19 00:09:25,602 - INFO - ==================================================
+2025-05-19 00:09:25,603 - INFO - Iniciando processo ETL completo
+2025-05-19 00:09:25,603 - INFO - ==================================================
+2025-05-19 00:09:25,603 - INFO - Iniciando ETL para DimAluno
+2025-05-19 00:09:25,664 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 00:09:25,669 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 00:09:25,672 - INFO - Extraídos 162 registros da tabela aluno
+2025-05-19 00:09:25,694 - INFO - Tabela DimAluno limpa com sucesso
+2025-05-19 00:09:25,705 - INFO - Inseridos 162 registros em DimAluno (lote 1)
+2025-05-19 00:09:25,706 - INFO - Total de 162 registros inseridos em DimAluno
+2025-05-19 00:09:25,706 - INFO - Iniciando ETL para DimProfessor
+2025-05-19 00:09:25,711 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 00:09:25,718 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 00:09:25,719 - INFO - Extraídos 35 registros da tabela professor
+2025-05-19 00:09:25,742 - INFO - Tabela DimProfessor limpa com sucesso
+2025-05-19 00:09:25,747 - INFO - Inseridos 35 registros em DimProfessor (lote 1)
+2025-05-19 00:09:25,747 - INFO - Total de 35 registros inseridos em DimProfessor
+2025-05-19 00:09:25,748 - INFO - Iniciando ETL para DimDisciplina
+2025-05-19 00:09:25,754 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 00:09:25,759 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 00:09:25,761 - INFO - Extraídos 130 registros da tabela disciplina
+2025-05-19 00:09:25,783 - INFO - Tabela DimDisciplina limpa com sucesso
+2025-05-19 00:09:25,789 - INFO - Inseridos 130 registros em DimDisciplina (lote 1)
+2025-05-19 00:09:25,789 - INFO - Total de 130 registros inseridos em DimDisciplina
+2025-05-19 00:09:25,790 - INFO - Iniciando ETL para DimTurma
+2025-05-19 00:09:25,795 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 00:09:25,801 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 00:09:25,802 - INFO - Extraídos 56 registros da tabela turma
+2025-05-19 00:09:25,824 - INFO - Tabela DimTurma limpa com sucesso
+2025-05-19 00:09:25,828 - INFO - Inseridos 56 registros em DimTurma (lote 1)
+2025-05-19 00:09:25,828 - INFO - Total de 56 registros inseridos em DimTurma
+2025-05-19 00:09:25,828 - INFO - Iniciando ETL para DimLocalizacao
+2025-05-19 00:09:25,834 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 00:09:25,840 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 00:09:25,841 - INFO - Extraídos 150 registros da tabela localizacao
+2025-05-19 00:09:25,862 - INFO - Tabela DimLocalizacao limpa com sucesso
+2025-05-19 00:09:25,868 - INFO - Inseridos 150 registros em DimLocalizacao (lote 1)
+2025-05-19 00:09:25,868 - INFO - Total de 150 registros inseridos em DimLocalizacao
+2025-05-19 00:09:25,868 - INFO - Iniciando ETL para DimTempo
+2025-05-19 00:09:25,874 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 00:09:25,879 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 00:09:25,880 - INFO - Extraídos 10 registros da tabela tempo
+2025-05-19 00:09:25,903 - INFO - Tabela DimTempo limpa com sucesso
+2025-05-19 00:09:25,907 - INFO - Inseridos 10 registros em DimTempo (lote 1)
+2025-05-19 00:09:25,907 - INFO - Total de 10 registros inseridos em DimTempo
+2025-05-19 00:09:25,908 - INFO - Iniciando ETL para FatoPresenca
+2025-05-19 00:09:25,913 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 00:09:25,919 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 00:09:25,921 - INFO - Extraídos 230 registros da tabela presenca
+2025-05-19 00:09:25,963 - INFO - Tabela FatoPresenca limpa com sucesso
+2025-05-19 00:09:25,978 - INFO - Inseridos 230 registros em FatoPresenca (lote 1)
+2025-05-19 00:09:25,978 - INFO - Total de 230 registros inseridos em FatoPresenca
+2025-05-19 00:09:25,978 - INFO - Verificando integridade dos dados...
+2025-05-19 00:09:25,984 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 00:09:25,989 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 00:09:25,992 - INFO - aluno -> DimAluno: 162 -> 162
+2025-05-19 00:09:25,993 - INFO - professor -> DimProfessor: 35 -> 35
+2025-05-19 00:09:25,995 - INFO - disciplina -> DimDisciplina: 130 -> 130
+2025-05-19 00:09:25,997 - INFO - turma -> DimTurma: 56 -> 56
+2025-05-19 00:09:25,998 - INFO - localizacao -> DimLocalizacao: 150 -> 150
+2025-05-19 00:09:26,001 - INFO - tempo -> DimTempo: 10 -> 10
+2025-05-19 00:09:26,002 - INFO - presenca -> FatoPresenca: 230 -> 230
+2025-05-19 00:09:26,003 - INFO - ==================================================
+2025-05-19 00:09:26,003 - INFO - Processo ETL concluído com sucesso em 0:00:00.400603
+2025-05-19 00:09:26,004 - INFO - ==================================================
+2025-05-19 01:12:07,905 - INFO - ==================================================
+2025-05-19 01:12:07,906 - INFO - Iniciando processo ETL completo
+2025-05-19 01:12:07,906 - INFO - ==================================================
+2025-05-19 01:12:07,906 - INFO - Iniciando ETL para DimAluno
+2025-05-19 01:12:08,026 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 01:12:08,032 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 01:12:08,034 - INFO - Extraídos 162 registros da tabela aluno
+2025-05-19 01:12:08,060 - INFO - Tabela DimAluno limpa com sucesso
+2025-05-19 01:12:08,071 - INFO - Inseridos 162 registros em DimAluno (lote 1)
+2025-05-19 01:12:08,071 - INFO - Total de 162 registros inseridos em DimAluno
+2025-05-19 01:12:08,072 - INFO - Iniciando ETL para DimProfessor
+2025-05-19 01:12:08,078 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 01:12:08,083 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 01:12:08,084 - INFO - Extraídos 35 registros da tabela professor
+2025-05-19 01:12:08,107 - INFO - Tabela DimProfessor limpa com sucesso
+2025-05-19 01:12:08,111 - INFO - Inseridos 35 registros em DimProfessor (lote 1)
+2025-05-19 01:12:08,112 - INFO - Total de 35 registros inseridos em DimProfessor
+2025-05-19 01:12:08,112 - INFO - Iniciando ETL para DimDisciplina
+2025-05-19 01:12:08,118 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 01:12:08,123 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 01:12:08,124 - INFO - Extraídos 130 registros da tabela disciplina
+2025-05-19 01:12:08,146 - INFO - Tabela DimDisciplina limpa com sucesso
+2025-05-19 01:12:08,153 - INFO - Inseridos 130 registros em DimDisciplina (lote 1)
+2025-05-19 01:12:08,153 - INFO - Total de 130 registros inseridos em DimDisciplina
+2025-05-19 01:12:08,154 - INFO - Iniciando ETL para DimTurma
+2025-05-19 01:12:08,159 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 01:12:08,165 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 01:12:08,166 - INFO - Extraídos 56 registros da tabela turma
+2025-05-19 01:12:08,186 - INFO - Tabela DimTurma limpa com sucesso
+2025-05-19 01:12:08,191 - INFO - Inseridos 56 registros em DimTurma (lote 1)
+2025-05-19 01:12:08,191 - INFO - Total de 56 registros inseridos em DimTurma
+2025-05-19 01:12:08,191 - INFO - Iniciando ETL para DimLocalizacao
+2025-05-19 01:12:08,197 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 01:12:08,202 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 01:12:08,203 - INFO - Extraídos 150 registros da tabela localizacao
+2025-05-19 01:12:08,225 - INFO - Tabela DimLocalizacao limpa com sucesso
+2025-05-19 01:12:08,231 - INFO - Inseridos 150 registros em DimLocalizacao (lote 1)
+2025-05-19 01:12:08,231 - INFO - Total de 150 registros inseridos em DimLocalizacao
+2025-05-19 01:12:08,231 - INFO - Iniciando ETL para DimTempo
+2025-05-19 01:12:08,237 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 01:12:08,242 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 01:12:08,243 - INFO - Extraídos 10 registros da tabela tempo
+2025-05-19 01:12:08,290 - INFO - Tabela DimTempo limpa com sucesso
+2025-05-19 01:12:08,293 - INFO - Inseridos 10 registros em DimTempo (lote 1)
+2025-05-19 01:12:08,293 - INFO - Total de 10 registros inseridos em DimTempo
+2025-05-19 01:12:08,294 - INFO - Iniciando ETL para FatoPresenca
+2025-05-19 01:12:08,299 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 01:12:08,304 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 01:12:08,306 - INFO - Extraídos 230 registros da tabela presenca
+2025-05-19 01:12:08,349 - INFO - Tabela FatoPresenca limpa com sucesso
+2025-05-19 01:12:08,366 - INFO - Inseridos 230 registros em FatoPresenca (lote 1)
+2025-05-19 01:12:08,366 - INFO - Total de 230 registros inseridos em FatoPresenca
+2025-05-19 01:12:08,366 - INFO - Verificando integridade dos dados...
+2025-05-19 01:12:08,372 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 01:12:08,377 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 01:12:08,381 - INFO - aluno -> DimAluno: 162 -> 162
+2025-05-19 01:12:08,383 - INFO - professor -> DimProfessor: 35 -> 35
+2025-05-19 01:12:08,385 - INFO - disciplina -> DimDisciplina: 130 -> 130
+2025-05-19 01:12:08,387 - INFO - turma -> DimTurma: 56 -> 56
+2025-05-19 01:12:08,388 - INFO - localizacao -> DimLocalizacao: 150 -> 150
+2025-05-19 01:12:08,390 - INFO - tempo -> DimTempo: 10 -> 10
+2025-05-19 01:12:08,391 - INFO - presenca -> FatoPresenca: 230 -> 230
+2025-05-19 01:12:08,392 - INFO - ==================================================
+2025-05-19 01:12:08,392 - INFO - Processo ETL concluído com sucesso em 0:00:00.486382
+2025-05-19 01:12:08,392 - INFO - ==================================================
+2025-05-19 02:07:06,912 - INFO - ==================================================
+2025-05-19 02:07:06,913 - INFO - Iniciando processo ETL completo
+2025-05-19 02:07:06,913 - INFO - ==================================================
+2025-05-19 02:07:06,913 - INFO - Iniciando ETL para DimAluno
+2025-05-19 02:07:07,025 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 02:07:07,031 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 02:07:07,034 - INFO - Extraídos 162 registros da tabela aluno
+2025-05-19 02:07:07,056 - INFO - Tabela DimAluno limpa com sucesso
+2025-05-19 02:07:07,068 - INFO - Inseridos 162 registros em DimAluno (lote 1)
+2025-05-19 02:07:07,068 - INFO - Total de 162 registros inseridos em DimAluno
+2025-05-19 02:07:07,069 - INFO - Iniciando ETL para DimProfessor
+2025-05-19 02:07:07,074 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 02:07:07,080 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 02:07:07,081 - INFO - Extraídos 35 registros da tabela professor
+2025-05-19 02:07:07,104 - INFO - Tabela DimProfessor limpa com sucesso
+2025-05-19 02:07:07,108 - INFO - Inseridos 35 registros em DimProfessor (lote 1)
+2025-05-19 02:07:07,108 - INFO - Total de 35 registros inseridos em DimProfessor
+2025-05-19 02:07:07,108 - INFO - Iniciando ETL para DimDisciplina
+2025-05-19 02:07:07,115 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 02:07:07,120 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 02:07:07,121 - INFO - Extraídos 130 registros da tabela disciplina
+2025-05-19 02:07:07,143 - INFO - Tabela DimDisciplina limpa com sucesso
+2025-05-19 02:07:07,149 - INFO - Inseridos 130 registros em DimDisciplina (lote 1)
+2025-05-19 02:07:07,149 - INFO - Total de 130 registros inseridos em DimDisciplina
+2025-05-19 02:07:07,149 - INFO - Iniciando ETL para DimTurma
+2025-05-19 02:07:07,155 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 02:07:07,161 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 02:07:07,162 - INFO - Extraídos 56 registros da tabela turma
+2025-05-19 02:07:07,182 - INFO - Tabela DimTurma limpa com sucesso
+2025-05-19 02:07:07,186 - INFO - Inseridos 56 registros em DimTurma (lote 1)
+2025-05-19 02:07:07,186 - INFO - Total de 56 registros inseridos em DimTurma
+2025-05-19 02:07:07,186 - INFO - Iniciando ETL para DimLocalizacao
+2025-05-19 02:07:07,192 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 02:07:07,198 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 02:07:07,199 - INFO - Extraídos 150 registros da tabela localizacao
+2025-05-19 02:07:07,219 - INFO - Tabela DimLocalizacao limpa com sucesso
+2025-05-19 02:07:07,224 - INFO - Inseridos 150 registros em DimLocalizacao (lote 1)
+2025-05-19 02:07:07,225 - INFO - Total de 150 registros inseridos em DimLocalizacao
+2025-05-19 02:07:07,225 - INFO - Iniciando ETL para DimTempo
+2025-05-19 02:07:07,231 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 02:07:07,236 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 02:07:07,237 - INFO - Extraídos 10 registros da tabela tempo
+2025-05-19 02:07:07,258 - INFO - Tabela DimTempo limpa com sucesso
+2025-05-19 02:07:07,262 - INFO - Inseridos 10 registros em DimTempo (lote 1)
+2025-05-19 02:07:07,263 - INFO - Total de 10 registros inseridos em DimTempo
+2025-05-19 02:07:07,263 - INFO - Iniciando ETL para FatoPresenca
+2025-05-19 02:07:07,268 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 02:07:07,274 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 02:07:07,276 - INFO - Extraídos 230 registros da tabela presenca
+2025-05-19 02:07:07,317 - INFO - Tabela FatoPresenca limpa com sucesso
+2025-05-19 02:07:07,330 - INFO - Inseridos 230 registros em FatoPresenca (lote 1)
+2025-05-19 02:07:07,331 - INFO - Total de 230 registros inseridos em FatoPresenca
+2025-05-19 02:07:07,331 - INFO - Verificando integridade dos dados...
+2025-05-19 02:07:07,337 - INFO - Conexão estabelecida com Banco_pi
+2025-05-19 02:07:07,342 - INFO - Conexão estabelecida com DW_pi
+2025-05-19 02:07:07,346 - INFO - aluno -> DimAluno: 162 -> 162
+2025-05-19 02:07:07,349 - INFO - professor -> DimProfessor: 35 -> 35
+2025-05-19 02:07:07,351 - INFO - disciplina -> DimDisciplina: 130 -> 130
+2025-05-19 02:07:07,353 - INFO - turma -> DimTurma: 56 -> 56
+2025-05-19 02:07:07,354 - INFO - localizacao -> DimLocalizacao: 150 -> 150
+2025-05-19 02:07:07,356 - INFO - tempo -> DimTempo: 10 -> 10
+2025-05-19 02:07:07,357 - INFO - presenca -> FatoPresenca: 230 -> 230
+2025-05-19 02:07:07,358 - INFO - ==================================================
+2025-05-19 02:07:07,358 - INFO - Processo ETL concluído com sucesso em 0:00:00.445264
+2025-05-19 02:07:07,358 - INFO - ==================================================
